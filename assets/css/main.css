@@ -3466,7 +3466,7 @@ input, select, textarea {
 		#banner:before {
 			content: '';
 			display: inline-block;
-			height: 190vh;
+			height: 180vh;
 			vertical-align: middle;
 			width: 1%;
 		}
@@ -4146,7 +4146,7 @@ input, select, textarea {
 }
 
 .view-on-figma {
-	z-index: 1000;
+	z-index: 900;
 }
 
 .view-on-figma:hover {
