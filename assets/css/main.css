@@ -4125,6 +4125,7 @@ input, select, textarea {
 .porfolio-title-body-text {
 	font-size: 22px;
 	font-weight: bold;
+	margin-top: 12px;
 }
 
 .case-study-button {
@@ -4148,6 +4149,9 @@ input, select, textarea {
 .view-on-figma {
 	z-index: 900;
 	color: white;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 	border: none !important;
 }
 
@@ -4184,9 +4188,17 @@ input, select, textarea {
 	padding-bottom: 12px;
 }
 
-.sideways-ux-designer-text {
+.yellow-line-wrapper {
 	display: flex;
-	width: 300px
+	width: 400px;
+}
+
+.yellow-line-text {
+	margin: 0 !important; 
+	padding: 0; 
+	color: #F0FE75; 
+	margin: 31px 15px 0 0; 
+	font-size: 20px;
 }
 
 .house-2-home-wrapper {
@@ -4208,14 +4220,7 @@ input, select, textarea {
 }
 
 .about-content-absolute {
-	padding-left: 20px; 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	display: flex; 
-	justify-content: flex-start; 
-	align-items: flex-start; 
-	flex-direction: column;
+
 }
 
 .as-a-ux-designer-text {
@@ -4240,6 +4245,7 @@ input, select, textarea {
 
 .lets-go-image-section {
 	position: relative;
+	z-index: 1000;
 }
 
 .porfolio-title {
@@ -4252,14 +4258,18 @@ input, select, textarea {
 	margin: 20px 0 20px 0; 
 	font-size: 16px; 
 	font-weight: bold;
+	text-align: center;
+	max-width: 80%;
 }
 
-
+.porfolio {
+}
 
 .portfolio-background-image {
 	border-radius: 30px; 
 	max-width: 80%;
 	margin: 0 auto;
+	position: relative;
 }
 
 .portfolio-image-left-one {
@@ -4290,8 +4300,6 @@ input, select, textarea {
 }
 
 .portfolio-section-wrapper-left {
-	position: relative; 
-	padding: 20px; 
 	margin: 50px 0;
 	display: flex;
 	flex-direction: column;
@@ -4300,13 +4308,16 @@ input, select, textarea {
 }
 
 .portfolio-section-wrapper-right {
-	position: relative; 
-	padding: 20px; 
 	margin: 50px 0; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.portfolio-image-wrapper {
+	position: relative;
+	max-width: 80%;
 }
 
 .logo-cici {
@@ -4315,20 +4326,20 @@ input, select, textarea {
 	height: auto;
 }
 
-.portfolio-year {
+.portfolio-year, .portfolio-year-text {
 	font-size: 20px; 
-	margin: 12px 0;
 	font-family: 'Courier New', Courier, monospace !important;
 }
 
 .portfolio-links {
-	max-width: 1200px;
-	margin: 0 auto;
 }
 
 #about {
-	max-width: 1200px;
 	margin: 0 auto;
+	background: #242424; 
+	padding: 20px; 
+	padding-bottom: 100px; 
+	position: relative; 
 }
 
 .linkedin-header-link {
@@ -4358,12 +4369,92 @@ input, select, textarea {
 	font-size: 24px;
 }
 
+.yellow-line {
+	margin: 16px !important; 
+	height: 0; 
+	border: 2px solid #F0FE75; 
+	width: 92px;
+}
+
+.portfolio-image {
+	width: 100%;
+}
+
+.about-content-absolute {
+	text-align: center;
+}
+
+.about-body {
+	z-index: 1000; 
+	font-size: 19px; 
+	font-weight: bold;
+}
+
+.profile-pic {
+	max-width: 100%;
+}
+
+.about-title-text {
+	width: 100%;
+	text-align: center;
+}
+
+#Contact {
+	background: #242424; 
+	position: relative;
+	padding: 20px;
+}
+
 @media screen and (min-width: 800px) {
+
+	#Contact {
+	padding: 300px 20px 100px 20px; 
+	}
+
+	.about-title-text {
+		width: 100%;
+		text-align: left;
+	}
+
+	.profile-pic {
+		max-width: 60%; 
+		opacity: 0.8
+	}
+
+	.about-body {
+		max-width: 50%; 
+		font-weight: bold;
+		text-align: left;
+	}
+
+	.about-content-absolute {
+		padding-left: 20px; 
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		display: flex; 
+		justify-content: flex-start; 
+		align-items: flex-start; 
+		flex-direction: column;
+	}
+
+	#about {
+		display: flex; 
+		justify-content: flex-end; 
+		align-items: flex-end;
+	}
+
+
+.portfolio-image-wrapper {
+	position: relative;
+	max-width: 600px;
+}
 
 
 	.portfolio-year {
-		margin: 6px 0;
+		margin: 12px 0 0 0;
 	}
+
 
 	.logo-cici {
 		margin-top: 5px; 
@@ -4372,7 +4463,7 @@ input, select, textarea {
 	}
 
 	.subTitleMod {
-		padding-right: 90px;
+		padding-right: 57px;
 	}
 
 	.lets-go-wrapper, .house-2-home-wrapper, .picture-palace-wrapper {
@@ -4413,16 +4504,20 @@ input, select, textarea {
 	.portfolio-subTitle {
 		font-size: 22px; 
 		margin: 20px 0 40px 0; 
+		text-align: left;
+		max-width: 400px;
 	}
 
 	.portfolio-section-wrapper-left {
 		display: block;
+		position: relative;
 	}
 
 	.portfolio-section-wrapper-right {
 		justify-content: right; 
 		flex-direction: column; 
 		align-items: flex-end;
+		position: relative;
 	}
 }
 
@@ -4442,7 +4537,7 @@ body {
 	#header {
 		display: flex;
 		justify-content: space-between;
-		align-items: flex-end;
+		align-items: center;
 		z-index: 1002 !important;
 	}
 	#header nav {
