@@ -16,33 +16,48 @@
 		<div style="position: relative;" id="page-wrapper">
 			<!-- <a href="#one" style='position: absolute; z-index: 1000; bottom: 0;' class="goto-next scrolly">Next</a> -->
 			<div style="position: relative; height: 0; width: 100%">
-				<img style="position: absolute; left: 0; top: 0; z-index: 1000;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674514768/text_homepage_nrcpvx.png" alt="">
+				<!-- <img style="position: absolute; left: 0; top: 0; z-index: 1000;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674514768/text_homepage_nrcpvx.png" alt=""> -->
 			</div>
 			<!-- Header -->
-				<header style='position: fixed; z-index: 1000; top: 0; opacity: 0.9; min-height: 68px;' id="header">
-					<h1 id="logo"><a href="index.html"><img style='margin-top: 5px; width: 137px; height: auto;' src="./images/NEW_logo.png"></img></a></h1>
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><img class="logo-cici" style='' src="./images/NEW_logo.png"></img></a></h1>
+					<div style="margin-left: 50px;"></div>
 					<nav id="nav">
 						<ul style="margin-top: 5px;">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#portfolio">Work</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#footer">Contact</a></li>
+							<li><a class="nav-item" href="index.html">Home</a></li>
+							<li><a class="nav-item" href="#portfolio">Work</a></li>
+							<li><a class="nav-item" href="#about">About</a></li>
+							<li><a class="nav-item" href="#footer">Contact</a></li>
 						</ul>
 					</nav>
+					<a style="width: 40px;" href="https://www.linkedin.com/in/iraci-santos-hansen-a80809182/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
 				</header>
 
+				<div class="homepage-content-wrapper">
+					<div class="homepage-sideways-text-wrapper">
+						<h1 class="sideways-text-line-one">HELLO!</h1>
+						<h1 class="sideways-text-line-two">I AM CICI. GLAD YOU'RE HERE!</h1>
+						<div class="sideways-ux-designer-text">
+							<h2 class="" style="margin: 0 !important; padding: 0; color: #F0FE75; margin: 31px 15px 0 0; font-size: 20px;">UX/UI Designer</h2>
+							<hr style="margin: 16px !important; height: 0; border: 2px solid #F0FE75; width: 70px;"></hr>
+						</div>
+					</div>
+					<div class="homepage-text-wrapper">
+						<h1 class="homepage-content-heading-text">I am a UX/UI Designer based in New York City</h1>
+						<p class="as-a-ux-designer-text">
+							As a UX Designer, my goal is to create 
+							interactions that are beautiful, thoughtful and humane. 
+							My super power is empathizing with users and delivering the 
+							perfect balance between functionality and aesthetics.
+						</p>
+					</div>
+				</div>
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<header>
-							<p style='position: absolute; top: -320px; right: -434px;  min-width: 327px;  max-width: 327px; font-size: 22px; text-align: left; z-index: 1001;'>
-								As a UX Designer, my goal is to create 
-								interactions that are beautiful, thoughtful and humane. 
-							</p>
-						</header>
-						<p style="width: 350px; font-weight: bold; max-width: 350px; text-align: left; font-weight: bold; font-size: 22px; position: absolute; left: -45%; top: 312px; z-index: 1001;">My super power is empathizing with users and delivering the perfect balance between functionality and aesthetics.</p>
 					</div>
 				</section>
+
 
 			<!-- Work -->
 
@@ -51,57 +66,60 @@
 					<h1 class="portfolio-title-text">UX/UI Case Studies:</h1>
 					<p class="porfolio-title-body-text">I am trying to stay with the current design trends and constantly challenging myself to learn more. I also love minimalism and clean design.</p>
 				</div>
-				<div style="position: relative; padding: 20px; margin: 50px 0;">
-					<p style="font-size: 20px; margin: 6px 0;">2022 UX/UI Designer</p>
-					<div style="position: relative;">
-						<div style="position: absolute; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; top: -37px; left: 600px;">
-							<h1 style="font-size: 100px; font-weight: bold; padding: 0;">Let's Go!</h1>
-							<p style="margin: 20px 0 40px 0; font-size: 22px; font-weight: bold;">Designing a mobile app for finding events and group chatting.</p>
+				<!-- section 1 -->
+				<div class="portfolio-section-wrapper-left">
+					<p class="portfolio-year">2022 UX/UI Designer</p>
+					<div class="lets-go-image-section">
+						<div class="lets-go-wrapper section-wrapper">
+							<h1 class="porfolio-title">Let's Go!</h1>
+							<p class="portfolio-subTitle" >Designing a mobile app for finding events and group chatting.</p>
 							<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
 								<a target="_blank" href="letsgo.html" style='background: #FF5A5F;' class="case-study-button">View Case Study</a>
 								<a href="" style='color: white;'' class='view-on-figma'>view case study on Figma</a>
 							</div>
 						</div>
 					</div>
-					<img loading="lazy" style="border-radius: 30px; max-width: 643px;" src="./images/portfolio_image_background.png" alt="">
-					<img loading="lazy" style="position: absolute; left: 60px; top: 142px;" src="./images/lets-go-image.png" alt="">
+					<img class="portfolio-background-image" loading="lazy" src="./images/portfolio_image_background.png" alt="">
+					<img class="portfolio-image-left-one" loading="lazy" src="./images/lets-go-image.png" alt="">
 				</div>
-				<div style="position: relative; padding: 20px; margin: 50px 0; display: flex; justify-content: right; flex-direction: column; align-items: flex-end;">
-					<p style="font-size: 20px; margin: 6px 0;">2022 UX/UI Designer</p>
+				<!-- section 2 -->
+				<div class="portfolio-section-wrapper-right">
+					<p class="portfolio-year">2022 UX/UI Designer</p>
 					<div style="position: relative;">
-						<div style="position: absolute; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; top: -65px; right: 411px;">
-							<h1 style="font-size: 100px; font-weight: bold; padding: 0;">House2Home</h1>
-							<p style="margin: 20px 0 40px 0; padding-right: 90px; font-size: 22px; font-weight: bold;">Redesigning a website for an e-commerce platform for home decor shopping.</p>
+						<div class="house-2-home-wrapper section-wrapper">
+							<h1 class="porfolio-title">House2Home</h1>
+							<p class='portfolio-subTitle subTitleMod'>Redesigning a website for an e-commerce platform for home decor shopping.</p>
 							<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
 								<a target="_blank" href="house2home.html" style="background: #73C094;" class="case-study-button">View Case Study</a>
-								<a style='color: white;'>view case study on Figma</a>
+								<a class='view-on-figma'>view case study on Figma</a>
 							</div>
 						</div>
 					</div>
-					<img loading="lazy" style="border-radius: 30px; max-width: 643px;"  src="./images/portfolio_image_background.png" alt="">
-					<img loading="lazy" style="position: absolute; right: 34px; top: 78px; max-width: 670px;" src="./images/h2h-image.png" alt="">
+					<img class="portfolio-background-image" loading="lazy"  src="./images/portfolio_image_background.png" alt="">
+					<img class="portfolio-image-right" loading="lazy" src="./images/h2h-image.png" alt="">
 				</div>
-				<div style="position: relative; padding: 20px; margin: 50px 0;">
-					<p style="font-size: 20px; margin: 6px 0;">2023 UX/UI Designer</p>
+				<!-- section 3 -->
+				<div class="portfolio-section-wrapper-left">
+					<p class="portfolio-year" >2023 UX/UI Designer</p>
 					<div style="position: relative;">
-						<div style="position: absolute; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; top: -37px; left: 600px;">
-							<h1 style="font-size: 100px; font-weight: bold; padding: 0;">Picture Palace</h1>
-							<p style="margin: 20px 0 40px 0; font-size: 22px; font-weight: bold;">Redesigning the subscription experience for a video streaming mobile platform.</p>
+						<div class="picture-palace-wrapper section-wrapper">
+							<h1 class="porfolio-title">Picture Palace</h1>
+							<p class="portfolio-subTitle" >Redesigning the subscription experience for a video streaming mobile platform.</p>
 							<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
 								<a target="_blank" href="picturepalace.html" style="background: #000131;" class="case-study-button">View Case Study</a>
-								<a style='color: white;' href="">view case study on Figma</a>
+								<a class='view-on-figma' href="">view case study on Figma</a>
 							</div>
 						</div>
 					</div>
-					<img loading="lazy" style="border-radius: 30px; max-width: 643px;"  src="./images/portfolio_image_background.png" alt="">
-					<img loading="lazy" style="position: absolute; left: 60px; top: 79px;" src="./images/picture_palace_image.png" alt="">
+					<img class="portfolio-background-image" loading="lazy"  src="./images/portfolio_image_background.png" alt="">
+					<img class="portfolio-image-left-two" loading="lazy" src="./images/picture_palace_image.png" alt="">
 				</div>
 			</div>
 
 			<!-- About -->
 
 			<div id="about" style="background: #242424; padding: 20px; padding-bottom: 100px; position: relative; display: flex; justify-content: flex-end; align-items: flex-end;">
-				<div style="padding-left: 20px; position: absolute; top: 0; left: 0; display: flex; justify-content: flex-start; align-items: flex-start; flex-direction: column;">
+				<div class="about-content-absolute">
 					<p style="z-index: 1000; color: #F0FE75; font-weight: bold; font-size: 19px; max-width: 40%;">About</p>
 					<h1 style="z-index: 1000;  padding-bottom: 20px; font-size: 50px; font-weight: bold;">This is me. I mean "She".</h1>
 					<p style="z-index: 1000; max-width: 50%; font-size: 19px; font-weight: bold;">Iraci Santos Hansen (A.k.a Cici) was born in Brazil and  lives in New York since 2019. 
@@ -120,7 +138,7 @@
 			<!-- Contact  -->
 
 			<div style='padding: 300px 20px 100px 20px; background: #242424; position: relative;'id="Contact">
-				<img style="position: absolute; right: 0; top: 0px; max-width: 600px;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674517827/Group_131_1_onyylt.png" alt="">
+				<img class="" style="position: absolute; right: 0; top: 0px; max-width: 600px;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674517827/Group_131_1_onyylt.png" alt="">
 				<p style="font-size: 19px; font-weight: bold; color: #F0FE75;">Contact</p>
 				<h1 style="font-size: 50px; font-weight: bold;">Feel free to reach out!</h1>
 				<p style="padding: 0; font-size: 19px;">CiciSantosHansen@gmail.com</p>

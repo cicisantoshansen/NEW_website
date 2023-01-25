@@ -719,7 +719,7 @@
 		}
 
 		&.major {
-			background: _palette(accent2);
+			background: #242424;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -734,7 +734,7 @@
 			}
 
 			&.alt {
-				@include line-icon(_palette(accent2));
+				@include line-icon(#242424);
 			}
 		}
 	}
@@ -1435,7 +1435,7 @@
 
 			&:before {
 				@include vendor('transform', 'rotate(45deg)');
-				background: _palette(accent2);
+				background: #242424;
 				content: '';
 				display: block;
 				height: 1em;
@@ -1544,7 +1544,7 @@
 
 	#banner {
 		background-attachment: fixed;
-		background-color: _palette(accent2);
+		background-color: #242424;
 		background-image: url('../../images/banner.jpg');
 		background-position: center center;
 		background-size: cover;
@@ -1975,13 +1975,13 @@
 				@include vendor('backface-visibility', 'hidden');
 				@include vendor('transition', 'transform #{_duration(navPanel)} ease');
 				display: block;
-				height: 44px;
+				height: 70px;
 				left: 0;
 				position: fixed;
 				top: 0;
 				width: 100%;
 				z-index: _misc(z-index-base) + 1;
-				background: _palette(accent2);
+				background: #242424;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0,0,0,0.125);
 
 				.title {
@@ -2163,4 +2163,8 @@
 				}
 			}
 
+	}
+
+	#titleBar {
+		height: 70px !important;
 	}

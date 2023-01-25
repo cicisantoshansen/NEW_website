@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #242424;
 }
 
 ol, ul {
@@ -3408,7 +3409,7 @@ input, select, textarea {
 
 				#header nav ul li {
 					display: inline-block;
-					margin-left: 1em;
+					margin-left: 3.5em;
 				}
 
 					#header nav ul li a, #header nav ul li span {
@@ -3467,7 +3468,7 @@ input, select, textarea {
 		#banner:before {
 			content: '';
 			display: inline-block;
-			height: 180vh;
+			height: 100vh;
 			vertical-align: middle;
 			width: 1%;
 		}
@@ -3488,8 +3489,6 @@ input, select, textarea {
 
 		#banner .content {
 			display: inline-block;
-			margin-right: 1%;
-			max-width: 95%;
 			padding: 6em;
 			position: relative;
 			text-align: right;
@@ -3883,13 +3882,13 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
+				height: 70px;
 				left: 0;
 				position: fixed;
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				background: #242424;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -3897,7 +3896,7 @@ input, select, textarea {
 					color: #ffffff;
 					display: block;
 					font-weight: 300;
-					height: 44px;
+					height: 70px;
 					line-height: 44px;
 					text-align: center;
 				}
@@ -3908,6 +3907,7 @@ input, select, textarea {
 					}
 
 				#titleBar .toggle {
+					margin-top: 12px;
 					text-decoration: none;
 					height: 60px;
 					left: 0;
@@ -3932,12 +3932,11 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #F0FE75;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
-						height: 44px;
+						height: 70px;
 						left: 0;
 						line-height: 44px;
 						position: absolute;
@@ -3967,7 +3966,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #181920;
+				background: #242424;
 				padding: 0.75em 1.25em;
 			}
 
@@ -4148,8 +4147,317 @@ input, select, textarea {
 
 .view-on-figma {
 	z-index: 900;
+	color: white;
+	border: none !important;
 }
 
 .view-on-figma:hover {
 	cursor: pointer;
+	color: #F0FE75;
 }
+
+.lets-go-wrapper {
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	top: -37px; 
+	left:505px;
+}
+
+.homepage-sideways-text-wrapper {
+	position: absolute;
+	transform: rotate(90deg);
+	top: 308px;
+	left: -167px;
+}
+
+.sideways-text-line-one {
+	font-size: 38px;
+	padding: 0;
+	padding-bottom: 12px;
+}
+
+.sideways-text-line-two {
+	font-size: 38px;
+	padding: 0;
+	padding-bottom: 12px;
+}
+
+.sideways-ux-designer-text {
+	display: flex;
+	width: 300px
+}
+
+.house-2-home-wrapper {
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	top: -38px; 
+	right: 411px;
+}
+
+.picture-palace-wrapper {
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	top: -37px; 
+	left: 474px;
+}
+
+.about-content-absolute {
+	padding-left: 20px; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	display: flex; 
+	justify-content: flex-start; 
+	align-items: flex-start; 
+	flex-direction: column;
+}
+
+.as-a-ux-designer-text {
+	font-size: 22px; 
+	text-align: left; 
+	z-index: 1003;
+	font-size: 30px;
+}
+
+.my-super-power-text {
+	width: 350px; 
+	font-weight: bold;
+	max-width: 350px; 
+	text-align: left; 
+	font-weight: bold; 
+	font-size: 22px; 
+	position: absolute; 
+	left: -45%; 
+	top: 312px; 
+	z-index: 1001;
+}
+
+.lets-go-image-section {
+	position: relative;
+}
+
+.porfolio-title {
+	font-size: 30px; 
+	font-weight: bold; 
+	padding: 0;
+}
+
+.portfolio-subTitle {
+	margin: 20px 0 20px 0; 
+	font-size: 16px; 
+	font-weight: bold;
+}
+
+
+
+.portfolio-background-image {
+	border-radius: 30px; 
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.portfolio-image-left-one {
+	position: absolute; 
+	left: 126px; 
+	top: 339px;
+	max-width: 78%;
+
+}
+
+.portfolio-image-left-two {
+	position: absolute; 
+	left: 113px; 
+	top: 282px;
+	max-width: 78%;
+
+}
+
+.portfolio-image-right {
+	position: absolute; 
+	right: 104px; 
+	top: 290px;
+	max-width: 78%;
+}
+
+.section-wrapper {
+		margin-bottom: 20px;
+}
+
+.portfolio-section-wrapper-left {
+	position: relative; 
+	padding: 20px; 
+	margin: 50px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-section-wrapper-right {
+	position: relative; 
+	padding: 20px; 
+	margin: 50px 0; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-cici {
+	margin-top: 5px; 
+	width: 137px; 
+	height: auto;
+}
+
+.portfolio-year {
+	font-size: 20px; 
+	margin: 12px 0;
+	font-family: 'Courier New', Courier, monospace !important;
+}
+
+.portfolio-links {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#about {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.linkedin-header-link {
+	display: none;
+}
+
+.homepage-content-wrapper {
+	width: 100%;
+	height: 0;
+	position: relative;
+	z-index: 1000;
+}
+
+.homepage-text-wrapper {
+	position: absolute;
+	margin-left: 36%;
+	margin-right: 5%;
+	text-align: left;
+	top: 235px;
+}
+
+.homepage-content-heading-text {
+	font-size: 36px;
+}
+
+.as-a-ux-designer-text {
+	font-size: 24px;
+}
+
+@media screen and (min-width: 800px) {
+
+
+	.portfolio-year {
+		margin: 6px 0;
+	}
+
+	.logo-cici {
+		margin-top: 5px; 
+		width: 152px; 
+		height: auto;
+	}
+
+	.subTitleMod {
+		padding-right: 90px;
+	}
+
+	.lets-go-wrapper, .house-2-home-wrapper, .picture-palace-wrapper {
+		position: absolute;
+		display: flex;
+		flex-direction: column; 
+		justify-content: flex-start; 
+		align-items: flex-start; 
+	}
+
+	.portfolio-image-left-one {
+		left: 60px; 
+		top: 157px;
+		max-width: 600px;
+	}
+
+	.portfolio-image-left-two {
+		left: 65px;
+		top: 83px;
+		max-width: 600px;
+	}
+	.portfolio-image-right {
+		right: 34px;
+		top: 78px; 
+		max-width: 600px;
+	}
+
+	.portfolio-background-image {
+		border-radius: 30px; 
+		max-width: 600px;
+		margin: 0;
+	}
+
+	.porfolio-title {
+		font-size: 60px; 
+	}
+
+	.portfolio-subTitle {
+		font-size: 22px; 
+		margin: 20px 0 40px 0; 
+	}
+
+	.portfolio-section-wrapper-left {
+		display: block;
+	}
+
+	.portfolio-section-wrapper-right {
+		justify-content: right; 
+		flex-direction: column; 
+		align-items: flex-end;
+	}
+}
+
+body {
+	background-color: #242424 !important;
+}
+
+#header {
+	position: fixed !important; 
+	z-index: 1000 !important; 
+	top: 0 !important; 
+	opacity: 0.9 !important; 
+	min-height: 75px !important;
+}
+
+@media screen and (min-width: 737px) {
+	#header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		z-index: 1002 !important;
+	}
+	#header nav {
+		position: relative;
+	}
+	.linkedin-header-link {
+		display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 0.5em;
+	}
+
+	.nav-item:hover {
+		border-bottom: 2px solid #F0FE75 !important;
+		box-sizing: content-box !important;
+	}
+}
+
