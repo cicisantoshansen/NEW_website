@@ -4173,11 +4173,15 @@ input, select, textarea {
 	position: absolute;
 	transform: rotate(90deg);
 	top: 286px;
-	left: -168px;
+	left: -167px;
 }
 
-.sideways-text-spacer {
+.extra-margin-top {
 	margin-right: 11px !important;
+	opacity: 0;
+	animation: type 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 3.2s;
 }
 
 .sideways-text-line-one {
@@ -4189,6 +4193,211 @@ input, select, textarea {
 	height: 66px;
 	margin-bottom: 12px;
 }
+
+.sideways-text-spacer {
+	width: 10px;
+}
+
+.sideways-text-line-one p:nth-child(1) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+
+.sideways-text-line-one p:nth-child(2) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.15s;
+	opacity: 0;
+}
+
+.sideways-text-line-one p:nth-child(3) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.2s;
+	opacity: 0;
+}
+
+.sideways-text-line-one p:nth-child(4) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.25s;
+	opacity: 0;
+}
+
+.sideways-text-line-one p:nth-child(5) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.3s;
+	opacity: 0;
+}
+
+.sideways-text-line-one p:nth-child(6) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.35s;
+	opacity: 0;
+}
+
+/* TWO */
+
+.sideways-text-line-two p:nth-child(1), .sideways-text-line-two p:nth-child(2) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.4s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(3) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.45s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(4), .sideways-text-line-two p:nth-child(5) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(6) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.55s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(7) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.6s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(8) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.65s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(9), .sideways-text-line-two p:nth-child(10) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.7s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(11) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.75s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(12) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.8s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(13) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.85s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(14) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.9s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(15) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.95s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(16) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(17) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.05s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(18) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.1s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(19), .sideways-text-line-two p:nth-child(20) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.15s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(21) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.2s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(22) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.25s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(23) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.3s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(24) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.35s;
+	opacity: 0;
+}
+
+.sideways-text-line-two p:nth-child(25) {
+	animation: type 0.2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.5s;
+	opacity: 0;
+}
+
+
+@keyframes type{ 
+  0% { 
+		opacity: 0; 
+	}
+	100% {
+		opacity: 1;
+	} 
+} 
 
 .sideways-text-line-two {
 	font-size: 38px;
@@ -4382,6 +4591,10 @@ input, select, textarea {
 	margin-right: 5%;
 	text-align: left;
 	top: 235px;
+	animation: type 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 4s;
+	opacity: 0;
 }
 
 .homepage-content-heading-text {
