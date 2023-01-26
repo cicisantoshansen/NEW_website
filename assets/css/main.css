@@ -4122,7 +4122,7 @@ input, select, textarea {
 		font-size: 24px;
 	}
 
-.porfolio-title-body-text {
+.portfolio-title-body-text {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 12px;
@@ -4172,20 +4172,43 @@ input, select, textarea {
 .homepage-sideways-text-wrapper {
 	position: absolute;
 	transform: rotate(90deg);
-	top: 308px;
-	left: -167px;
+	top: 286px;
+	left: -168px;
+}
+
+.sideways-text-spacer {
+	margin-right: 11px !important;
 }
 
 .sideways-text-line-one {
 	font-size: 38px;
 	padding: 0;
-	padding-bottom: 12px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 66px;
+	margin-bottom: 12px;
 }
 
 .sideways-text-line-two {
 	font-size: 38px;
 	padding: 0;
-	padding-bottom: 12px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 0;
+}
+
+.sideways-text-line-one p {
+	margin: 0;
+}
+
+.sideways-text-line-two p {
+	margin: 0;
+}
+
+.extra-margin-top {
+	margin-top: 25px !important;
 }
 
 .yellow-line-wrapper {
@@ -4235,7 +4258,6 @@ input, select, textarea {
 	font-weight: bold;
 	max-width: 350px; 
 	text-align: left; 
-	font-weight: bold; 
 	font-size: 22px; 
 	position: absolute; 
 	left: -45%; 
@@ -4248,10 +4270,11 @@ input, select, textarea {
 	z-index: 1000;
 }
 
-.porfolio-title {
+.portfolio-title {
 	font-size: 30px; 
 	font-weight: bold; 
 	padding: 0;
+	margin-top: 16px;
 }
 
 .portfolio-subTitle {
@@ -4262,7 +4285,7 @@ input, select, textarea {
 	max-width: 80%;
 }
 
-.porfolio {
+.portfolio {
 }
 
 .portfolio-background-image {
@@ -4405,11 +4428,19 @@ input, select, textarea {
 	padding: 20px;
 }
 
+#portfolio {
+	padding-top: 16px !important;
+}
+
 .portfolio-links, #about, #Contact {
-	padding: 0 15px !important;
+	padding: 0 30px !important;
 }
 
 @media screen and (min-width: 800px) {
+
+	#portfolio {
+		padding-top: 85px !important;
+	}
 
 	.portfolio-links, #about, #Contact, .about-content-absolute {
 		padding: 0 30px !important;
@@ -4504,7 +4535,7 @@ input, select, textarea {
 		margin: 0;
 	}
 
-	.porfolio-title {
+	.portfolio-title {
 		font-size: 60px; 
 	}
 
@@ -4537,7 +4568,7 @@ body {
 	z-index: 1000 !important; 
 	top: 0 !important; 
 	opacity: 0.9 !important; 
-	min-height: 75px !important;
+	min-height: 85px !important;
 }
 
 @media screen and (min-width: 737px) {
