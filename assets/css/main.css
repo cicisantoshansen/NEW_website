@@ -3456,8 +3456,9 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-color: #272833;
 		background-image: url("../../images/banner.jpg");
-		background-position: center center;
+		background-position:center;
 		background-size: cover;
+		overflow: hidden;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
 		position: relative;
@@ -3479,6 +3480,8 @@ input, select, textarea {
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0)), url("https://res.cloudinary.com/aptquirks/image/upload/v1674514602/homepage_background_y5ula3.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0)), url("https://res.cloudinary.com/aptquirks/image/upload/v1674514602/homepage_background_y5ula3.png");;
 			content: '';
+			background-size: cover;
+			overflow: hidden;
 			display: block;
 			height: 100%;
 			left: 0;
