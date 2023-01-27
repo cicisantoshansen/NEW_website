@@ -2464,6 +2464,7 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
+				font-size: 30px !important;
 			}
 
 			.icon.alt:before {
@@ -4175,7 +4176,7 @@ input, select, textarea {
 .homepage-sideways-text-wrapper {
 	position: absolute;
 	transform: rotate(90deg);
-	top: 286px;
+	top: 327px;
 	left: -167px;
 }
 
@@ -4184,7 +4185,7 @@ input, select, textarea {
 	opacity: 0;
 	animation: type 1s;
 	animation-fill-mode: forwards;
-	animation-delay: 3.2s;
+	animation-delay: 3.5s;
 }
 
 .sideways-text-line-one {
@@ -4248,147 +4249,147 @@ input, select, textarea {
 .sideways-text-line-two p:nth-child(1), .sideways-text-line-two p:nth-child(2) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.4s;
+	animation-delay: 1.65s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(3) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.45s;
+	animation-delay: 1.7s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(4), .sideways-text-line-two p:nth-child(5) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.5s;
+	animation-delay: 1.75s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(6) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.55s;
+	animation-delay: 1.8s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(7) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.6s;
+	animation-delay: 1.85s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(8) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.65s;
+	animation-delay: 1.9s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(9), .sideways-text-line-two p:nth-child(10) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.7s;
+	animation-delay: 2s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(11) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.75s;
+	animation-delay: 2.25s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(12) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.8s;
+	animation-delay: 2.3s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(13) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.85s;
+	animation-delay: 2.35s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(14) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.9s;
+	animation-delay: 2.4s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(15) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.95s;
+	animation-delay: 2.45s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(16) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 2.5s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(17) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.05s;
+	animation-delay: 2.55s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(18) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.1s;
+	animation-delay: 2.6s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(19), .sideways-text-line-two p:nth-child(20) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.15s;
+	animation-delay: 2.65s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(21) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.2s;
+	animation-delay: 2.7s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(22) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.25s;
+	animation-delay: 2.75s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(23) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.3s;
+	animation-delay: 2.8s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(24) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.35s;
+	animation-delay: 2.85s;
 	opacity: 0;
 }
 
 .sideways-text-line-two p:nth-child(25) {
 	animation: type 0.2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2.5s;
+	animation-delay: 2.9s;
 	opacity: 0;
 }
 
@@ -4590,14 +4591,16 @@ input, select, textarea {
 
 .homepage-text-wrapper {
 	position: absolute;
-	margin-left: 36%;
-	margin-right: 5%;
-	text-align: left;
-	top: 235px;
+	top: 230px;
 	animation: type 1s;
 	animation-fill-mode: forwards;
 	animation-delay: 4s;
 	opacity: 0;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .homepage-content-heading-text {
@@ -4606,6 +4609,9 @@ input, select, textarea {
 
 .as-a-ux-designer-text {
 	font-size: 24px;
+	max-width: 70%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .yellow-line {
@@ -4711,7 +4717,7 @@ input, select, textarea {
 
 
 	.logo-cici {
-		margin-top: 5px; 
+		margin-top: 38px; 
 		width: 152px; 
 		height: auto;
 	}
@@ -4784,7 +4790,7 @@ body {
 	z-index: 1000 !important; 
 	top: 0 !important; 
 	opacity: 0.9 !important; 
-	min-height: 85px !important;
+	min-height: 125px !important;
 }
 
 @media screen and (min-width: 737px) {
