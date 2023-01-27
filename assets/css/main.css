@@ -4464,6 +4464,7 @@ input, select, textarea {
 	text-align: left; 
 	z-index: 1003;
 	font-size: 30px;
+	max-width: 53%;
 }
 
 .my-super-power-text {
@@ -4591,7 +4592,7 @@ input, select, textarea {
 
 .homepage-text-wrapper {
 	position: absolute;
-	top: 230px;
+	top: 180px;
 	animation: type 1s;
 	animation-fill-mode: forwards;
 	animation-delay: 4s;
