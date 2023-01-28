@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/aptquirks/image/upload/v1674943883/Group_166_2_bl9anf.png">
 	</head>
 	<body class="is-preload landing">
 		<div style="position: relative;" id="page-wrapper">
@@ -87,7 +88,7 @@
 					</div>
 					<div class="homepage-text-wrapper">
 						<!-- <h1 class="homepage-content-heading-text">I am a UX/UI Designer based in New York City</h1> -->
-						<img style="max-width: 300px; height: auto; margin-bottom: 22px;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674799190/Ellipse_1_1_ho1wfu.png" alt="">
+						<img class="cici-image-logo" src="https://res.cloudinary.com/aptquirks/image/upload/v1674799190/Ellipse_1_1_ho1wfu.png" alt="">
 						<p class="as-a-ux-designer-text">
 							As a UX Designer, my goal is to create 
 							interactions that are beautiful, thoughtful and humane. 
@@ -108,9 +109,9 @@
 					<img style="z-index: 1000; position: absolute; top: -75px; left: 50%;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674800280/Group_125_pjna6g.png" alt="">
 				</div>
 			<div id="portfolio" class="portfolio-links">
-				<div style="padding: 0; margin-right: 30px;">
+				<div class="portfolio-title-wrapper">
 					<div class="yellow-line-wrapper">
-						<h1 style="margin-top: 6px !important;" class="portfolio-title-text yellow-line-text">UX/UI Case Studies</h1>
+						<p class="portfolio-title-text yellow-line-text">UX/UI Case Studies</p>
 						<hr class="yellow-line"></hr>
 					</div>
 					<p class="portfolio-title-body-text">I am trying to stay with the current design trends and constantly challenging myself to learn more. I also love minimalism and clean design.</p>
@@ -131,7 +132,7 @@
 					<div class="portfolio-background-image">
 						<img class="portfolio-image"  loading="lazy" src="https://res.cloudinary.com/aptquirks/image/upload/v1674669615/lg-portfolio-combined_u0crdw.png" alt="">
 						<p class='view-on-figma'>
-							<a href="" >view case study on Figma</a>
+							<a target="_blank" style="color: white !important; border: none;" href="https://www.figma.com/proto/UbV2hRiGk6fh6uxe8XZVBz/Let's-go!-Case-Study--by-Iraci-Santos?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" >view case study on Figma</a>
 						</p>
 
 					</div>
@@ -152,7 +153,7 @@
 					<div class="portfolio-background-image">
 							<img class="portfolio-image" loading="lazy"  src="https://res.cloudinary.com/aptquirks/image/upload/v1674669604/h2h-portfolio-combined_zra3h0.png" alt="">
 							<p class='view-on-figma'>
-								<a href="" >view case study on Figma</a>
+								<a target="_blank" style="color: white !important; border: none;" href="https://www.figma.com/proto/CdWQK3h24hYY5tF9KcIx11/House2Home---GV-Design-Sprint-case-study(Iraci-Santos)?node-id=37%3A2272&scaling=min-zoom&page-id=37%3A2271&starting-point-node-id=37%3A2272" >view case study on Figma</a>
 							</p>
 						</div>
 				</div>
@@ -173,7 +174,7 @@
 						<div class="portfolio-background-image">
 							<img class="portfolio-image" loading="lazy"  src="https://res.cloudinary.com/aptquirks/image/upload/v1674669604/pp-portfolio-combined_ceqbc1.png" alt="">
 							<p class='view-on-figma'>
-								<a href="" >view case study on Figma</a>
+								<a target="_blank" style="color: white !important; border: none;" class="view-on-figma-link" href="https://www.figma.com/proto/4wLaBybMDFUh2waVPKoNbe/Case-Study-Picture-Palace?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" >view case study on Figma</a>
 							</p>
 						</div>
 					</div>
@@ -183,13 +184,14 @@
 			<!-- About -->
 
 			<div id="about">
+				<div class="yellow-line-wrapper about-title-text">
+					<p style="font-weight: bold; margin-top: 3px !important;" class="yellow-line-text">About</p>
+					<hr class="yellow-line"></hr>
+					<!-- z-index: 1000; color: #F0FE75; font-weight: bold; font-size: 19px; max-width: 40%; -->
+				</div>
 				<div class="about-content-absolute">
-					<div class="yellow-line-wrapper about-title-text">
-						<p style="font-weight: bold; margin-top: 3px !important;" class="yellow-line-text">About</p>
-						<hr class="yellow-line"></hr>
-						<!-- z-index: 1000; color: #F0FE75; font-weight: bold; font-size: 19px; max-width: 40%; -->
-					</div>
-					<h1 style="margin-top: 12px; z-index: 1000;  padding-bottom: 20px; font-size: 50px; font-weight: bold;">This is me. I mean "She".</h1>
+					<div class="about-text-wrapper">
+					<h1 class="about-title">This is me. I mean "She".</h1>
 					<p class="about-body">Iraci Santos Hansen (A.k.a Cici) was born in Brazil and  lives in New York since 2019. 
 						She is a UX/UI Designer who recently graduated from the Springboard career track and has over a decade of experience in the entertainment industry.</br></br>
 						
@@ -198,16 +200,21 @@
 						She strongly believes that it’s possible to solve problems through Design and that it should be made FOR people in a beautiful and thoughtful way. </br></br>
 						
 						It probably wouldn't hurt to mention that she's a big fan of Theatre plays and tv shows, apps (especially fun home decor games) travel, and books. Also, she rarely refers to herself in the third person.</p>
-						<img style="z-index: 1000; width: 100%; max-width: 493px;" loading="lazy" src="https://res.cloudinary.com/aptquirks/image/upload/v1674515667/Group_129_uxodfg.png" alt="">
+					</div>
+						<img style="z-index: 1000; width: 100%; max-width: 493px;" loading="lazy" src="https://res.cloudinary.com/aptquirks/image/upload/v1674944773/Group_129_txtj00.png" alt="">
 				</div>
-					<img class="profile-pic" loading="lazy" src="https://res.cloudinary.com/aptquirks/image/upload/v1674515733/b_w_headshot_sw0q9i.png" alt="">
+					<!-- <img class="profile-pic" loading="lazy" src="https://res.cloudinary.com/aptquirks/image/upload/v1674515733/b_w_headshot_sw0q9i.png" alt=""> -->
 			</div>
 
 			<!-- Contact  -->
 
 			<div id="Contact">
 				<!-- <img class="" style="position: absolute; right: 0; top: 0px; max-width: 600px;" src="https://res.cloudinary.com/aptquirks/image/upload/v1674517827/Group_131_1_onyylt.png" alt=""> -->
-				<p style="font-size: 19px; font-weight: bold; color: #F0FE75;">Contact</p>
+				
+				<div class="yellow-line-wrapper about-title-text">
+					<p style="font-size: 19px; font-weight: bold; color: #F0FE75;">Contact</p>
+					<hr class="yellow-line"></hr>
+				</div>
 				<h1 style="font-size: 50px; font-weight: bold;">Feel free to reach out!</h1>
 			</div>
 
