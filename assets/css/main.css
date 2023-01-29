@@ -4440,7 +4440,8 @@ input, select, textarea {
 }
 
 .portfolio-title-wrapper {
-	padding: 0; 
+	padding: 0;
+	margin-bottom: 122px !important; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -4674,7 +4675,7 @@ input, select, textarea {
 	position: relative;
 	padding: 20px;
 	text-align: center;
-	margin: 20px 0;
+	margin: 122px 0 20px 0;
 
 }
 
@@ -4708,8 +4709,17 @@ hr {
 	margin: 0 0 11px 8px !important;
 }
 
+.contact-text {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
 @media screen and (min-width: 800px) {
 
+	.contact-text {
+		text-align: left;
+	}
 
 hr {
 	/* margin: 0 0 0 8px !important; */
@@ -4750,7 +4760,7 @@ hr {
 	}
 
 	#portfolio {
-		padding-top: 85px !important;
+		padding-top: 152px !important;
 	}
 
 	.portfolio-links, #about, #Contact {
@@ -4787,9 +4797,7 @@ hr {
 	}
 
 	#about {
-		/* display: flex; 
-		justify-content: flex-end; 
-		align-items: flex-end; */
+		margin-top: 122px;
 	}
 
 
@@ -4910,4 +4918,8 @@ body {
 	justify-content: center; 
 	align-items: center;
 	flex-direction: column;
+}
+
+.contact-text {
+	text-align: left;
 }
