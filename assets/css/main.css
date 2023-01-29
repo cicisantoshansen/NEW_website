@@ -4731,7 +4731,18 @@ hr {
 	margin-top: 122px;
 }
 
+.case-study {
+	margin-top: 60px;
+	padding: 0 8px;
+	max-width: 100%;
+}
+
 @media screen and (min-width: 800px) {
+
+	.case-study {
+		margin-top: 140px; 
+		padding: 20px 40px;
+	}
 
 	.about-body {
 		margin-bottom: 0px !important;
