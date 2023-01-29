@@ -4706,7 +4706,7 @@ hr {
 
 
 hr {
-	margin: 0 0 0 8px !important;
+	/* margin: 0 0 0 8px !important; */
 }
 
 	.portfolio-title-wrapper {
@@ -4894,8 +4894,4 @@ body {
 p {
 	margin: 0 !important;
 	padding: 0 !important
-}
-
-hr {
-	margin: 0 0 11px 8px !important;
 }
