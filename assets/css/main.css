@@ -4731,7 +4731,7 @@ hr {
 	margin-top: 122px;
 }
 
-.case-study {
+#case-study {
 	margin-top: 60px;
 	padding: 0 8px;
 	max-width: 100%;
@@ -4739,7 +4739,7 @@ hr {
 
 @media screen and (min-width: 800px) {
 
-	.case-study {
+	#case-study {
 		margin-top: 140px; 
 		padding: 20px 40px;
 	}
