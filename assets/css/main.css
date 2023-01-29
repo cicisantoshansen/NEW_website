@@ -4133,11 +4133,11 @@ input, select, textarea {
 }
 
 .case-study-button {
-	padding: 14px 46px;
+	padding: 14px 46px !important;
 	font-size: 18px;
 	font-weight: bold;
 	border-radius: 12px;
-	margin-bottom: 12px;
+	margin: 12px 0 !important;
 	border: none;
 	color: white;
 	z-index: 1000;
@@ -4508,7 +4508,7 @@ input, select, textarea {
 }
 
 .portfolio-subTitle {
-	margin: 20px 0 20px 0; 
+	margin: 20px 0 !important; 
 	font-size: 16px; 
 	font-weight: bold;
 	text-align: center;
@@ -4574,7 +4574,7 @@ input, select, textarea {
 }
 
 .logo-cici {
-	margin-top: 5px; 
+	margin-top: 8px; 
 	width: 137px; 
 	height: auto;
 }
@@ -4698,7 +4698,16 @@ input, select, textarea {
 	text-align: center;
 }
 
+hr {
+	margin: 0 0 11px 8px !important;
+}
+
 @media screen and (min-width: 800px) {
+
+
+hr {
+	margin: 0 0 0 8px !important;
+}
 
 	.portfolio-title-wrapper {
 		text-align: left;
@@ -4714,7 +4723,7 @@ input, select, textarea {
 	.yellow-line-wrapper {
 		display: flex;
 		justify-content: flex-start;
-		align-items: center;
+		/* align-items: center; */
 		width: 400px;
 	}
 
@@ -4761,7 +4770,7 @@ input, select, textarea {
 	.about-content-absolute {
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	#about {
@@ -4882,7 +4891,7 @@ body {
 	}
 }
 
-p, a {
+p {
 	margin: 0 !important;
 	padding: 0 !important
 }
