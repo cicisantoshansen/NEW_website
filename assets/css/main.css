@@ -4193,7 +4193,15 @@ input, select, textarea {
 	opacity: 0;
 	animation: type 1s;
 	animation-fill-mode: forwards;
-	animation-delay: 3.5s;
+	animation-delay: 3.5s
+}
+
+.arrow-down {
+	opacity: 0;
+	animation: type 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 3.8s;
+	z-index: 1005;
 }
 
 .sideways-text-line-one {
@@ -4715,7 +4723,19 @@ hr {
 	font-weight: bold;
 }
 
+.about-body {
+	margin-bottom: 30px !important;
+}
+
+.portfolio-title-wrapper {
+	margin-top: 122px;
+}
+
 @media screen and (min-width: 800px) {
+
+	.about-body {
+		margin-bottom: 0px !important;
+	}
 
 	.contact-text {
 		text-align: left;
@@ -4760,7 +4780,7 @@ hr {
 	}
 
 	#portfolio {
-		padding-top: 152px !important;
+		padding-top: 40px !important;
 	}
 
 	.portfolio-links, #about, #Contact {
@@ -4918,8 +4938,5 @@ body {
 	justify-content: center; 
 	align-items: center;
 	flex-direction: column;
-}
-
-.contact-text {
-	text-align: left;
+	padding-bottom: 30px;
 }
