@@ -4590,6 +4590,7 @@ input, select, textarea {
 
 .logo-cici {
 	margin-top: 8px; 
+	margin-left: -4px;
 	width: 137px; 
 	height: auto;
 }
