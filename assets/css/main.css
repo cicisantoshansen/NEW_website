@@ -4928,8 +4928,12 @@ body {
 		align-items: center;
 		z-index: 1002 !important;
 	}
+
 	#header nav {
 		position: relative;
+	}
+	.case-study-header {
+		min-height: 40px !important;
 	}
 	.linkedin-header-link {
 		display: inline-block;
@@ -4951,4 +4955,16 @@ body {
 	align-items: center;
 	flex-direction: column;
 	padding-bottom: 30px;
+}
+
+.video-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-iframe {
+	width: 100%;
+	height: auto;
 }
