@@ -4564,7 +4564,11 @@ input, select, textarea {
 	.portfolio-text-image-wrapper, 
 	.portfolio-title-wrapper,
 	#about, #Contact {
-		padding: 40px 60px 0 40px;
+		padding: 0 60px 0 40px;
+	}
+
+	.spacer {
+		height: 40px;
 	}
 
 	.homepage-content-wrapper {
@@ -4925,7 +4929,11 @@ hr {
 }
 
 .portfolio-title-wrapper {
-	margin-top: 122px;
+	/* margin-top: 122px; */
+}
+
+.spacer {
+	height: 122px;
 }
 
 #case-study {
@@ -5212,8 +5220,12 @@ body {
 	}
 }
 
-.button-wrapper {
+.button-wrapper-yellow {
 	position: relative;
+}
+
+.button-wrapper-yellow:hover {
+	cursor: pointer;
 }
 
 

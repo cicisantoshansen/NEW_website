@@ -89,7 +89,7 @@
 						<div class="yellow-line-wrapper extra-margin-top">
 							<h2 class="yellow-line-text">based in New York.</h2>
 						</div>
-						<div class="button-wrapper">
+						<div class="button-wrapper-yellow">
 							<button class="yellow-button">My Work</button>
 							<img class="button-decoration" src="https://res.cloudinary.com/aptquirks/image/upload/v1695401900/Rectangle_8_2_1_xfp7bn.png" alt="">
 						</div>
@@ -105,6 +105,7 @@
 					<img style="z-index: 1000; width: 50px; position: absolute; top: -75px; left: 50%; transform: translate(-50%, 0);" src="https://res.cloudinary.com/aptquirks/image/upload/v1684614337/arrow_grey_i3whfc.png" alt="">
 				</div>
 			<div id="portfolio" class="portfolio-links">
+				<div class="spacer"></div>
 				<div class="portfolio-title-wrapper">
 					<div class="yellow-line-wrapper">
 						<p class="portfolio-title-text yellow-line-text">UX/UI Case Studies</p>
@@ -287,5 +288,10 @@
 		childImage.classList.add('more-lines');
 		childImage.src = 'https://res.cloudinary.com/aptquirks/image/upload/v1695401685/NEW_off_white_lines_evsfeg.png';
 		toggle.appendChild(childImage);
+		const yellowButton = document.querySelector(".button-wrapper-yellow");
+		const titleText = document.querySelector(".spacer");
+		yellowButton.addEventListener("click", () => {
+			titleText.scrollIntoView();
+		})
 	</script>
 </html>
